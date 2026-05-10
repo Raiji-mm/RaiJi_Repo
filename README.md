@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 ## Flow Visualization
 
 Browser (Client) → Frontend (UI) → Backend (Server) → Database (MongoDB)
@@ -10,10 +10,10 @@ Browser (Client) → Frontend (UI) → Backend (Server) → Database (MongoDB)
 ##Flow Visualization
 
 Browser (Client)
-      ↓ HTTP request
+      > HTTP request
   Frontend (UI)
-      ↓ API call
+      > API call
   Backend (Server)
-      ↓ query
+      > query
   Database (MongoDB)
->>>>>>> ff86f94be55bca55934553b23192e0b09011c531
+
