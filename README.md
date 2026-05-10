@@ -1,15 +1,7 @@
-# RaiJi_Repo
+## Flow Visualization
 
-## Client-Server Architecture
+Browser (Client) → Frontend (UI) → Backend (Server) → Database (MongoDB)
 
-### Components:
-- Client (Browser)
-- Frontend (UI Layer)
-- Backend (Server)
-- Database (MongoDB)
-
-### Flow:
-Client → Frontend → Backend → Database → Backend → Frontend → Client
-
-### Explanation:
-In this architecture, the client sends an HTTP request through the browser. The frontend handles user interaction and forwards the request to the backend. The backend processes the request, applies logic, and communicates with the MongoDB database to store or retrieve data. The database returns the result to the backend, which then sends a response back to the frontend. Finally, the frontend displays the result to the client. This setup ensures clear separation of responsibilities, better security, and efficient data handling.
+- Client sends an HTTP request to the Frontend
+- Frontend makes API calls to the Backend
+- Backend queries the Database (MongoDB)
